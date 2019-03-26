@@ -1,0 +1,55 @@
+# Mobile Money and Financial Inclusion in Tanzania Challenge
+# https://zindi.africa/competitions/mobile-money-and-financial-inclusion-in-tanzania-challenge/data
+
+# 1. Install Libraries
+library(tidyverse)
+library(randomForest)
+library(rpart)
+
+# 2. Importing + Exploring Dataset
+training <- read.csv("training.csv")
+test <- read.csv("test.csv")
+
+dim(training)
+str(training)
+
+training$ID <- as.character(training$ID)
+test$ID <- as.character(test$ID)
+
+# Categorical Features
+names <- c(1,2,31,32)
+training[,-names] <- lapply(training[,-names] , factor)
+str(training)
+
+# Ommiting the 33,34,35 and 36 columns which have been used to build the 
+# mobile_money_classification label(target)
+training <- training[,-c(33:36)]
+
+table(training$mobile_money_classification)
+
+# Categorical Features for test data
+test[,-names] <- lapply(test[,-names] , factor)
+
+# checking for missing values
+any(is.na(training))
+
+rf_tree <- randomForest(mobile_money_classification ~ ., data=training,
+                         ntree = 500,
+                         mtry = 4,
+                         importance = TRUE,
+                         proximity = TRUE)
+
+attributes(rf_tree)
+
+# What was your model's confusion matrix on its own training set? Use 
+# model$confusion.
+rf_tree$confusion
+
+rf_tree$importance
+
+# Predictions
+# Now use your random forest model to predict on your test set!
+p <- predict(rf_tree, test)
+
+str(test)
+
