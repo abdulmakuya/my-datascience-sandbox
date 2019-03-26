@@ -5,5 +5,6 @@ Features - the input values from the csv
 Correlation - cohesiveness between two or more variables
 The higher the correlation the higher amount the learning experience would affected 
 
-Data exploration (ie.defining factors,integers,character) which maps to core concept in - variable in statistics i.e (ratio,interval,
-category)
+Data exploration 
+  Looking into the variables/features,making sure they are defined(ie.defining factors,integers,character) which maps to core concept in - variable in statistics i.e (ratio,interval,
+category,norminal)
