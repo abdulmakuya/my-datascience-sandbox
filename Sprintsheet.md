@@ -19,3 +19,6 @@ file.close()
 print(file.closed)
 
 ```
+default python file opening functions
+importing as array for numerical data numpy
+importing as dataframe for mixed data pandas
