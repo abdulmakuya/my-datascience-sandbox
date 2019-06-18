@@ -36,7 +36,10 @@ what I did,
 ```
 Able to ask these questions
 1. matplotlib correlation plot
-Styling
+Styling. 
+```python
 corr = df.corr()
 corr.style.background_gradient(cmap='coolwarm')
-2. 
+```
+2. matplotlib box whisker plot
+
