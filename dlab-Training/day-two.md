@@ -25,7 +25,7 @@ what I did,
     # Correlation can be done with a correlation matrix,and or correlation plot using a heatmap
     # what are the things that correlate the best
     # what are the things that correlate most with the target
-    df.corr # seeing how fields interact with one another
+    df.corr() # seeing how fields interact with one another
     
     # Plots and Visualizations 
     # we might need to visualize the data in order to to perfom more explatories
