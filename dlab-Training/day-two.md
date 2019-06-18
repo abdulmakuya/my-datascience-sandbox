@@ -33,3 +33,10 @@ what I did,
     # box whiskers
     # density chart
     # scatter graph
+```
+Able to ask these questions
+1. matplotlib correlation plot
+Styling
+corr = df.corr()
+corr.style.background_gradient(cmap='coolwarm')
+2. 
