@@ -1,5 +1,5 @@
-### Machine Learning Models
-for linear and Logistic regression
+### Machine Learning Algorithms
+for linear and Logistic regression which adressed in Supervised Learning
 
 - K Nearest neighbours
 - K Means
