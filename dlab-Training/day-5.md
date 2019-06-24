@@ -1,4 +1,9 @@
 ## Practise on the ML-Algorithm
 
 - Logistic regression
-  by using the sklear
+- Decision tree
+- K nearest neighbors
+- Linear discriminant analysis
+- Gaussian Naive Bayes
+- Support Vector Machine
+- Plotting Decision boundary
