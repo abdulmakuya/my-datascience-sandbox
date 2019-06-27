@@ -9,3 +9,5 @@ http://drewconway.com/ - including Data bootcamp at Strata 2011
 https://matplotlib.org
 
 https://www.analyticsvidhya.com/blog/2017/09/machine-learning-models-as-apis-using-flask/
+
+https://www.analyticsvidhya.com/blog/2017/09/machine-learning-models-as-apis-using-flask/
