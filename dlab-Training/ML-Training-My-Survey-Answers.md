@@ -22,3 +22,7 @@
   - Fine tuning,iterating to improve accuracy score
   
 ### What are the possible applications of Machine learning and related fields in the real world? *
+  Understanding user needs,clusters and behaviour in various scenarios and industries in businesses
+
+### What do you think is the difference between Machine Learning, Artificial Intelligence, and Deep Learning? *
+   Artificial Intelligence is any kind of intelligence mimicking natural intelligence but exhibited by a machine,Machine learning is the    process of teaching this machine before it becomes intelligent.
