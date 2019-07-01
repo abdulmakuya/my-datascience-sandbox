@@ -8,3 +8,17 @@
   
   If the results (accuracy score by using train and test data ) dont significantly improve with the increase of algorithm's complexity,then 
   I would finally choose the less complex one.in favour of explainability and the Ocam's Razor rule
+  
+### Given a problem, how comfortable are you in your ability to analyze the data and build a machine learning solution for problem? 
+  I am confident enough,let me elaborate the steps I would pass through
+  - Data Cleaning/wrangling
+    Check for duplicates,null values,
+  - Exploratory Data Analysis (EDA)
+    Play around with the data,see the distribution,outliers,
+  - Feature engineering/Dimensionality reduction
+  - Model Creation
+    Import,initialize and fit
+    
+  - Fine tuning,iterating to improve accuracy score
+  
+### What are the possible applications of Machine learning and related fields in the real world? *
