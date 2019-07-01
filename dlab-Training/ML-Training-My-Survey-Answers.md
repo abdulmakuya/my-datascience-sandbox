@@ -1,7 +1,11 @@
 ### -If you have experience with machine learning? What is your favorite Machine Learning Algorithm? And why?    
-  I generally start with regression algorithm (Logistic/linear) and documenting the results I get,I keep doing feature       engineering/reduction
-  (by reducing multicolliniarity,choosing most importance),
-  Principal Component Analysis and see what is the best result I could get out of these processes.
+Here I would start with the "No free Lunch theorem of Optimization", In which in plain english suggests that No one algorithms fits all/any circumstance.So it depends on the dataset, the question we are trying to answer,the level of accuracy vs. explainability.
+
+But generally speaking I would normally start with regression algorithm (Logistic/linear) and documenting the results I get,I keep doing feature engineering/reduction (by reducing multicolliniarity of the dataset, or choosing most important),Principal Component Analysis and see what is the best result I could with algorithm from these processes.
+  
+Then I try with decision tree regressor/classifier (depending on the question on table) and see what results I get.I would then step ahead to further advanced algorithm like Random forest,Support Vector Machine or neural networks.
+  
+ If the results (accuracy score by using train and test data ) dont significantly improve with the increase of algorithm's complexity,then I would finally choose the less complex one.in favour of explainability and the Ocam's Razor rule
   
   Then I try with decision tree regressor/classifier (depending on the question on table) and see what results I get.I would then step 
   ahead to further advanced algo like Random forest,Support Vector Machine or neural networks.
@@ -55,8 +59,13 @@ Technologically is the basics of  Data structures and algorithms and profiency w
 - pip
 Dont forget a cup of milk coffee and a favourite smoothie instead of heavy meal..Hahhahh
 
-
+### Why would a machine learning engineer need to visualize his datasets? *
   Python Data visualization libraries
-`like Matplotlib,Bokeh and for high end needs a good Graphics card.
-For live dashboard application they might use somethings like 
-chart.js,d3.js
+  like Matplotlib,Bokeh and for high end needs a good Graphics card.
+  For live dashboard application they might use somethings like 
+  chart.js,d3.js
+
+### What are the advantages and disadvantages of Neural Networks? *
+  Neural networks are perfect performing for very huge datasets and ones that keep growing,but the disadvantage comes that it is very complex for a human to explain or comprehend 
+  
+### 
