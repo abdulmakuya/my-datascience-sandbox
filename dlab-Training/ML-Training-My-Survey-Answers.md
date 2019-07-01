@@ -26,3 +26,9 @@
 
 ### What do you think is the difference between Machine Learning, Artificial Intelligence, and Deep Learning? *
    Artificial Intelligence is any kind of intelligence mimicking natural intelligence but exhibited by a machine,Machine learning is the    process of teaching this machine before it becomes intelligent.
+
+### What are the ethical implications of using machine learning? *
+  I think is the proper use and being careful that unintended catastrophic scenarios don't occur. Foristance the scandal on identifying a black person as a gorilla.Also by making data and AI capabilities open so that its not monopolized by a certain entity.
+  
+### What is the difference between Regression and Classification? *
+  Regression refers to problems that output continuous data,foristance we can have a model that predicts someone's height by looking at their gender,race,weight etc.,WHILE regression are the problems that output classes/classify datapoints into groups foristance say whether a fruit is an apple or orange based on the weight and color score
