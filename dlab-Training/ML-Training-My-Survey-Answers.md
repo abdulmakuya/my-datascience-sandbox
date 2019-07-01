@@ -1,4 +1,4 @@
-### - If you have experience with machine learning? What is your favorite Machine Learning Algorithm? And why?    
+### -If you have experience with machine learning? What is your favorite Machine Learning Algorithm? And why?    
   I generally start with a linear regression or classifier and documenting the results I get,I keep doing feature engineering/reduction
   (by reducing multicolliniarity,choosing most importance),
   Principal Component Analysis and see what is the best result I could get out of these processes.
