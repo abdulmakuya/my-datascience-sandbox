@@ -32,3 +32,31 @@
   
 ### What is the difference between Regression and Classification? *
   Regression refers to problems that output continuous data,foristance we can have a model that predicts someone's height by looking at their gender,race,weight etc.,WHILE regression are the problems that output classes/classify datapoints into groups foristance say whether a fruit is an apple or orange based on the weight and color score
+  
+### What are the likely challenges of introducing machine learning solutions to real world problems? *
+  Overfitting/underfitting and therefore make serious errors,secondly is that we cant always understand or comprehend what has a model do to get the results which it gets,and this explainability is crucial in business decision or life related matters
+  
+### In the real world, we often have datasets that have missing or corrupted values, how would you deal with that? *
+  We start with a process called Data wrangling,in which we try to clean as much as possible.from looking at duplicates,null values in which we might decide to use the central tendencies such as (Mean, Mode and Standard deviation )etc.
+  
+### What is Exploratory Data Analysis (EDA)? *
+  Refers to the process where we play around with the data in hopes of finding some comprehension or insight before hand,say distributions,central tendencies,errors,trends etc.
+  
+### What do you think are the necessary skills to becoming a successful machine learning engineer? *
+  Being curious,and keen to detail.Ability to understand or briefly explain fundamental algebra, calculus, statistics and probability.
+Technologically is the basics of  Data structures and algorithms and profiency with any programming language (preferebly python for this case)
+
+### What open source tools in the python ecosystem are crucial to the development of machine learning projects? *
+  First and foremost is a proper environment,there fore the anaconda,jupyter lab/notebook and 
+  ML libraries like 
+- scikitlearn, 
+- pandas
+- matplotlib
+- pip
+Dont forget a cup of milk coffee and a favourite smoothie instead of heavy meal..Hahhahh
+
+
+  Python Data visualization libraries
+`like Matplotlib,Bokeh and for high end needs a good Graphics card.
+For live dashboard application they might use somethings like 
+chart.js,d3.js
