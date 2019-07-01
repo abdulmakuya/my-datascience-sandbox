@@ -68,4 +68,10 @@ Dont forget a cup of milk coffee and a favourite smoothie instead of heavy meal.
 ### What are the advantages and disadvantages of Neural Networks? *
   Neural networks are perfect performing for very huge datasets and ones that keep growing,but the disadvantage comes that it is very complex for a human to explain or comprehend 
   
-### 
+### Given any standard machine learning problem, walk through the steps you would take to successfully approach it.
+- I would start exploring the data,parallel to asking general questions regarding the industry domain.
+- Start doing some wrangling,(check for duplicates,null values,outliers)
+- Perform feature engineering/Dimensionality reduction/Reduce linear collinearility
+- Also I would continue preparing the data by doing feature scaling, standardization, one-hot encoding etc
+- Start importing,initializing and fitting ML algorithms starting with simplest to complex (In favor of Occam's Razor )
+- Checking for the accuracy score and continue with optimization process.
