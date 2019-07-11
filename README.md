@@ -11,3 +11,5 @@ https://matplotlib.org
 https://www.analyticsvidhya.com/blog/2017/09/machine-learning-models-as-apis-using-flask/
 
 https://www.freecodecamp.org/news/data-visualization-using-d3-course/
+
+http://pythonstatistics.net/exploratory-data-analysis-of-african-migrants-deaths-in-the-world/
