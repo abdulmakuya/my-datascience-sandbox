@@ -13,3 +13,5 @@ https://www.analyticsvidhya.com/blog/2017/09/machine-learning-models-as-apis-usi
 https://www.freecodecamp.org/news/data-visualization-using-d3-course/
 
 http://pythonstatistics.net/exploratory-data-analysis-of-african-migrants-deaths-in-the-world/
+
+https://towardsdatascience.com/getting-started-with-google-colab-f2fff97f594c
