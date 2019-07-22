@@ -15,3 +15,6 @@ https://www.freecodecamp.org/news/data-visualization-using-d3-course/
 http://pythonstatistics.net/exploratory-data-analysis-of-african-migrants-deaths-in-the-world/
 
 https://towardsdatascience.com/getting-started-with-google-colab-f2fff97f594c
+
+## Industry
+https://medium.com/@nizamstatistics/8-mistakes-aspiring-data-scientists-make-c1a5636c2cf2
