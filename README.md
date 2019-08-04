@@ -16,5 +16,7 @@ http://pythonstatistics.net/exploratory-data-analysis-of-african-migrants-deaths
 
 https://towardsdatascience.com/getting-started-with-google-colab-f2fff97f594c
 
+- Datacamp - Podcast (https://www.datacamp.com/community/podcast)
+
 ## Industry
 https://medium.com/@nizamstatistics/8-mistakes-aspiring-data-scientists-make-c1a5636c2cf2
