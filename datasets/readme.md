@@ -4,5 +4,6 @@
 - Breast cancer
 - Housing heat loss effect
 - FSDT one
-- FSDT two
-- Employee
+- FSDT two (using several features to predict whether they likelihood of being banked or not
+- Employee (generated)
+- Fruits (dimensions,and color score)
