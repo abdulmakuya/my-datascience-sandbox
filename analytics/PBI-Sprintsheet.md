@@ -1,4 +1,5 @@
 ```dax
+//SWITCH SYNTAX
 v12 = SWITCH (
     ((Data[v6] = "TOP")),
     //Vodacom starting with 255 and 0
