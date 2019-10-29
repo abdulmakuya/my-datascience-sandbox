@@ -2,6 +2,8 @@
 entry guide for data science and ML with (R and R studio) and Python
 
 # Resources
+https://towardsdatascience.com/october-edition-breaking-into-data-science-2a845963816e
+
 https://medium.com/s/story/essential-math-for-data-science-why-and-how-e88271367fbd?linkId=68097208
 
 http://drewconway.com/ - including Data bootcamp at Strata 2011
