@@ -23,3 +23,6 @@ https://towardsdatascience.com/getting-started-with-google-colab-f2fff97f594c
 
 ## Industry
 https://medium.com/@nizamstatistics/8-mistakes-aspiring-data-scientists-make-c1a5636c2cf2
+
+## Deployment
+https://towardsdatascience.com/deploying-a-custom-ml-prediction-service-on-google-cloud-ae3be7e6d38f
