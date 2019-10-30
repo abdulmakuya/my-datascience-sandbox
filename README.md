@@ -9,6 +9,7 @@ https://towardsdatascience.com/be-a-more-efficient-data-scientist-today-master-p
 
 #### ScikitLearn
 https://www.datacamp.com/community/blog/scikit-learn-cheat-sheet
+https://www.dummies.com/programming/python/scikit-learn-method-summary/
 
 
 https://towardsdatascience.com/october-edition-breaking-into-data-science-2a845963816e
