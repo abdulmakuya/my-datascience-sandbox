@@ -3,9 +3,15 @@ entry guide for data science and ML with (R and R studio) and Python
 
 # Resources
 ### Sprintsheets
-https://towardsdatascience.com/be-a-more-efficient-data-scientist-today-master-pandas-with-this-guide-ea362d27386
-https://towardsdatascience.com/october-edition-breaking-into-data-science-2a845963816e
 
+#### Pandas 
+https://towardsdatascience.com/be-a-more-efficient-data-scientist-today-master-pandas-with-this-guide-ea362d27386
+
+#### ScikitLearn
+https://www.datacamp.com/community/blog/scikit-learn-cheat-sheet
+
+
+https://towardsdatascience.com/october-edition-breaking-into-data-science-2a845963816e
 https://medium.com/s/story/essential-math-for-data-science-why-and-how-e88271367fbd?linkId=68097208
 
 
