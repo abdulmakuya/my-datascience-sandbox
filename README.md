@@ -10,7 +10,7 @@ https://towardsdatascience.com/be-a-more-efficient-data-scientist-today-master-p
 #### ScikitLearn
 https://www.datacamp.com/community/blog/scikit-learn-cheat-sheet
 https://www.dummies.com/programming/python/scikit-learn-method-summary/
-
+https://stackabuse.com/overview-of-classification-methods-in-python-with-scikit-learn/
 
 https://towardsdatascience.com/october-edition-breaking-into-data-science-2a845963816e
 https://medium.com/s/story/essential-math-for-data-science-why-and-how-e88271367fbd?linkId=68097208
