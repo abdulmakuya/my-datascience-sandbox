@@ -6,6 +6,7 @@ entry guide for data science and ML with (R and R studio) and Python
 
 #### Pandas 
 https://towardsdatascience.com/be-a-more-efficient-data-scientist-today-master-pandas-with-this-guide-ea362d27386
+https://www.imaginorlabs.com/part-11-top-most-functions-used-in-pandas/
 
 #### ScikitLearn
 https://www.datacamp.com/community/blog/scikit-learn-cheat-sheet
