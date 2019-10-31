@@ -64,8 +64,7 @@ submission_df = {"PassengerId" : holdout_ids,
 
 #dataframe it and export to csv
 submission = pd.DataFrame(submission_df)
-
-submission.to_csv(index = False)
+submission.to_csv("submission.csv", index = False)
 ```
 default python file opening functions
 importing as array for numerical data numpy
