@@ -39,6 +39,33 @@ train = process_age(train,cut_points,label_names)
 age_bin_train = train.pivot_table(index = "Age_categories", values = "Survived")
 age_bin_train.plot.bar()
 
+# Cross-validation with k-fold Cross validation
+
+from sklearn.model_selection import cross_val_score
+from sklearn.linear_model import LogisticRegression
+import numpy as np
+
+lr = LogisticRegression()
+scores = cross_val_score(lr,all_X,all_y,cv=10)
+accuracy = numpy.mean(scores)
+
+print("the scores are ",scores)
+print("the accuracy is ",accuracy)
+
+
+# Creating submission files
+
+#take the ids from the holdout dataset
+holdout_ids = holdout["PassengerId"]
+
+#create a dataframe with exactly two columns IDs and Survived from the predictions
+submission_df = {"PassengerId" : holdout_ids,
+                 "Survived" : holdout_predictions}
+
+#dataframe it and export to csv
+submission = pd.DataFrame(submission_df)
+
+submission.to_csv(index = False)
 ```
 default python file opening functions
 importing as array for numerical data numpy
