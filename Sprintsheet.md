@@ -28,6 +28,7 @@ from sklearn.model_selection import cross_val_score
 from sklearn.linear_model import LogisticRegression
 import numpy as np
 
+all_X = df.columns #alternatively columns = ["col1","col2"],then all_X = df[columns]
 lr = LogisticRegression()
 scores = cross_val_score(lr,all_X,all_y,cv=10)
 accuracy = numpy.mean(scores)
@@ -97,6 +98,10 @@ feature_importance.plot.barh()
 
 # If the feature importance mean something if they are both +ve and -ve,meaning if the target is categorical..
 # say if the likelihood of a survival is opposite of likelihood of death,If it the results are mutually exclusive
+# then you want to absolute it,then oder it
+
+orderd_feature_importance = feature_importance.abs().sort_values()
+orderd_feature_importance.plot.barh()
 
 ```
 default python file opening functions
