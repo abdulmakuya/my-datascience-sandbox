@@ -1,31 +1,14 @@
-# Importing data to 
+### My Quick Snippets
 
 ```python
 
-# Open a file: 
-file
-file = open('moby_dick.txt', mode='r')
-
-# Print it
-print(file.read())
-
-# Check whether file is closed
-print(file.closed)
-
-# Close fil2
-file.close()
-
-# Check whether file is closed
-print(file.closed)
-
-#Pivot tables and Pivot table plots
+# Pivot tables and Pivot table plots
 
 class_pivot = train.pivot_table(index="Pclass", values="Survived")
 class_pivot.plot.bar()
 plt.show()
 
-#Binning
-
+# Binning
 
 def process_age(df,cut_points,label_names):
     df["Age"] = df["Age"].fillna(-0.5)
@@ -92,9 +75,25 @@ for column in ["Age_categories","Pclass","Sex"]:
 holdout = process_age(holdout)
 for column in ["Age_categories","Pclass","Sex"]:
     holdout = create_dummies(holdout,column)
-    
-    
+      
 print(train.columns)
+
+# Learning the feature importance by looking at the co-efficients
+# best-performing features, we need a way to measure which of our features are relevant to our outcome,logiristic regression comes with a packed,in which a coeffient attribute can be accessed after the the model is fit
+
+columns = ['Age_categories_Missing', 'Age_categories_Infant',
+       'Age_categories_Child', 'Age_categories_Teenager',
+       'Age_categories_Young Adult', 'Age_categories_Adult',
+       'Age_categories_Senior', 'Pclass_1', 'Pclass_2', 'Pclass_3',
+       'Sex_female', 'Sex_male', 'Embarked_C', 'Embarked_Q', 'Embarked_S',
+       'SibSp_scaled', 'Parch_scaled', 'Fare_scaled']
+
+
+lr = LogisticRegression()
+lr.fit(train[columns],train["Survived"])
+coefficients = lr.coef_
+feature_importance = pd.Series(coefficients[0],index=train[columns].columns)
+feature_importance.plot.barh()
 ```
 default python file opening functions
 importing as array for numerical data numpy
