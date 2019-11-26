@@ -95,7 +95,9 @@ coefficients = lr.coef_
 feature_importance = pd.Series(coefficients[0],index=train[columns].columns)
 feature_importance.plot.barh()
 
-If the feature importance mean something if they are both +ve and -ve
+# If the feature importance mean something if they are both +ve and -ve,meaning if the target is categorical..
+# say if the likelihood of a survival is opposite of likelihood of death,If it the results are mutually exclusive
+
 ```
 default python file opening functions
 importing as array for numerical data numpy
