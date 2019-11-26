@@ -94,6 +94,8 @@ lr.fit(train[columns],train["Survived"])
 coefficients = lr.coef_
 feature_importance = pd.Series(coefficients[0],index=train[columns].columns)
 feature_importance.plot.barh()
+
+If the feature importance mean something if they are both +ve and -ve
 ```
 default python file opening functions
 importing as array for numerical data numpy
