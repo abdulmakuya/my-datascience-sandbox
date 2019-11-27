@@ -103,6 +103,12 @@ feature_importance.plot.barh()
 orderd_feature_importance = feature_importance.abs().sort_values()
 orderd_feature_importance.plot.barh()
 
+Concatenate dummy rows (One hot encoded) in the original df
+
+for col in columns:
+    train[col + "_scaled"] = minmax_scale(train[col])
+    holdout[col + "_scaled"] = minmax_scale(holdout[col])
+
 ```
 default python file opening functions
 importing as array for numerical data numpy
