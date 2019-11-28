@@ -43,6 +43,7 @@ print("the accuracy is ",accuracy)
 holdout_ids = holdout["PassengerId"]
 
 #create a dataframe with exactly two columns IDs and Survived from the predictions
+#this will be used to compare.
 submission_df = {"PassengerId" : holdout_ids,
                  "Survived" : holdout_predictions}
 
@@ -76,6 +77,9 @@ for column in ["Age_categories","Pclass","Sex"]:
 holdout = process_age(holdout)
 for column in ["Age_categories","Pclass","Sex"]:
     holdout = create_dummies(holdout,column)
+    
+#Alternatively,If the column is just one
+train = create_dummies(train,"Fare_categories")
       
 print(train.columns)
 
