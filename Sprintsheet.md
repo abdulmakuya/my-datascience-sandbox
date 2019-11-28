@@ -8,7 +8,8 @@ class_pivot = train.pivot_table(index="Pclass", values="Survived")
 class_pivot.plot.bar()
 plt.show()
 
-# Binning
+# Binning - One technique to engineer a feature
+# A lot of the gains in accuracy in machine learning come from Feature Engineering. Feature engineering is the practice of creating new features from your existing data.Binning is when you take a continuos feature and separate it out into several ranges (or 'bins'), turning it into a categorical variable.
 
 def process_age(df,cut_points,label_names):
     df["Age"] = df["Age"].fillna(-0.5)
