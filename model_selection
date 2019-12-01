@@ -1,0 +1,7 @@
+```python
+
+from sklearn.neighbors import KNeighborsClassifier
+knn = KNeighborsClassifier(n_neighbors=1)
+
+scores = cross_val_score(knn, all_X, all_y, cv=10)
+accuracy_knn = scores.mean()
