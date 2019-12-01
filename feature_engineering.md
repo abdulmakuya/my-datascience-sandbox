@@ -1,3 +1,5 @@
+```python
+# map,applymap,Series.str.extract,and applying the whole formula to a column
 # Regular expressions for Title capturing and mapping to pre-defined titles
 
 titles = {
