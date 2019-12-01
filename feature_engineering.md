@@ -49,3 +49,24 @@ for column in ["Title","Cabin_type"]:
 
 #Another way apart from using the coefficients from logreg,to select the most important features,
 #we can also use a method called Recursive Feature Selection Cross Validation (RFSCV) which he RFECV class starts by training a model #using all of your features and scores it using cross validation. It then uses the logit coefficients to eliminate the least important #feature, and trains and scores a new model. At the end, the class looks at all the scores, and selects the set of features which #scored highest.
+
+
+from sklearn.feature_selection import RFECV
+
+columns = ['Age_categories_Missing', 'Age_categories_Infant',
+       'Age_categories_Child', 'Age_categories_Young Adult',
+       'Age_categories_Adult', 'Age_categories_Senior', 'Pclass_1', 'Pclass_3',
+       'Embarked_C', 'Embarked_Q', 'Embarked_S', 'SibSp_scaled',
+       'Parch_scaled', 'Fare_categories_0-12', 'Fare_categories_50-100',
+       'Fare_categories_100+', 'Title_Miss', 'Title_Mr', 'Title_Mrs',
+       'Title_Officer', 'Title_Royalty', 'Cabin_type_B', 'Cabin_type_C',
+       'Cabin_type_D', 'Cabin_type_E', 'Cabin_type_F', 'Cabin_type_G',
+       'Cabin_type_T', 'Cabin_type_Unknown']
+
+all_X = train[columns]
+all_y = train["Survived"]
+lr = LogisticRegression()
+selector = RFECV(lr,cv=10)
+selector.fit(all_X,all_y)
+
+optimized_columns = all_X.columns[selector.support_]
