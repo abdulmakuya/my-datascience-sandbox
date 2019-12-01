@@ -3,6 +3,7 @@
 from sklearn.neighbors import KNeighborsClassifier
 knn = KNeighborsClassifier(n_neighbors=1)
 
+#scores = cross_val_score(lr,all_X,all_y,cv=10)
 scores = cross_val_score(knn, all_X, all_y, cv=10)
 accuracy_knn = scores.mean()
 
@@ -25,3 +26,8 @@ for k in range(1,50,2):
     knn_scores[k] = accuracy_knn
 
 plot_dict(knn_scores)
+
+#from there we just iterated the possible values of the parameters,but 
+#within one model,and looked iin a graph which parameter gave the best value.
+If we maintain a table,which gives the best score,btn lr,knn after iterating the parameters...
+#Another term for saying all that is GridSearch,
