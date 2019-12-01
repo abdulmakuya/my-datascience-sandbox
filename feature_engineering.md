@@ -42,3 +42,5 @@ for column in ["Title","Cabin_type"]:
     
 #collinearity. Collinearity occurs where more than one feature contains data that are similar.
 #The effect of collinearity is that your model will overfit - you may get great results on your test data set, but then the model #performs worse on unseen data (like the holdout set).
+
+#As a result, when we created our two dummy columns from the categorical Sex column, we've actually created two columns with identical data in them. This will happen whenever we create dummy columns, and is called the dummy variable trap. The easy solution is to choose one column to drop any time you make dummy columns.
