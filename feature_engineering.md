@@ -46,3 +46,6 @@ for column in ["Title","Cabin_type"]:
 #As a result, when we created our two dummy columns from the categorical Sex column, 
 #we've actually created two columns with identical data in them. This will happen whenever we create dummy columns, 
 #and is called the dummy variable trap. The easy solution is to choose one column to drop any time you make dummy columns.
+
+#Another way apart from using the coefficients from logreg,to select the most important features,
+#we can also use a method called Recursive Feature Selection Cross Validation (RFSCV) which he RFECV class starts by training a model using all of your features and scores it using cross validation. It then uses the logit coefficients to eliminate the least important feature, and trains and scores a new model. At the end, the class looks at all the scores, and selects the set of features which scored highest.
