@@ -31,3 +31,16 @@ plot_dict(knn_scores)
 #within one model,and looked iin a graph which parameter gave the best value.
 If we maintain a table,which gives the best score,btn lr,knn after iterating the parameters...
 #Another term for saying all that is GridSearch,
+
+from sklearn.model_selection import GridSearchCV
+
+knn = KNeighborsClassifier()
+
+hyperparameters = {
+    "n_neighbors": range(1,50,2)
+}
+grid = GridSearchCV(knn, param_grid=hyperparameters, cv=10)
+grid.fit(all_X, all_y)
+
+print(grid.best_params_)
+print(grid.best_score_)
