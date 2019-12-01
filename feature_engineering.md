@@ -70,3 +70,9 @@ selector = RFECV(lr,cv=10)
 selector.fit(all_X,all_y)
 
 optimized_columns = all_X.columns[selector.support_]
+
+optimized_columnsIndex (<class 'pandas.core.indexes.base.Index'>)
+Index(['SibSp_scaled', 'Title_Mr', 'Title_Officer', 'Cabin_type_Unknown'], dtype='object')
+
+#So the RFECV suggests that those are the most important features in the dataset
+
