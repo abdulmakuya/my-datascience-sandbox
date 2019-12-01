@@ -38,3 +38,7 @@ holdout["Cabin_type"] = holdout["Cabin_type"].fillna("Unknown")
 for column in ["Title","Cabin_type"]:
     train = create_dummies(train,column)
     holdout = create_dummies(holdout,column)
+    
+    
+#collinearity. Collinearity occurs where more than one feature contains data that are similar.
+#The effect of collinearity is that your model will overfit - you may get great results on your test data set, but then the model #performs worse on unseen data (like the holdout set).
