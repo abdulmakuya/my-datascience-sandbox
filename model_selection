@@ -44,3 +44,26 @@ grid.fit(all_X, all_y)
 
 print(grid.best_params_)
 print(grid.best_score_)
+
+# if we want to exhaust all the possible combos and sets within knn then
+
+from sklearn.model_selection import GridSearchCV
+
+hyperparameters = {
+    "n_neighbors": range(1,20,2),
+    "weights": ["distance", "uniform"],
+    "algorithm": ['brute'],
+    "p": [1,2]
+}
+
+knn = KNeighborsClassifier()
+grid = GridSearchCV(knn,param_grid=hyperparameters,cv=10)
+
+grid.fit(all_X, all_y)
+
+best_params = grid.best_params_
+best_score = grid.best_score_
+
+{'algorithm': 'brute', 'n_neighbors': 5, 'p': 2, 'weights': 'uniform'}
+#That combo gives the best possible score from the data and feature engineering we have done
+# by using the knn
