@@ -25,6 +25,7 @@ https://matplotlib.org
 https://www.freecodecamp.org/news/data-visualization-using-d3-course/
 
 http://pythonstatistics.net/exploratory-data-analysis-of-african-migrants-deaths-in-the-world/
+https://www.kdnuggets.com/2019/07/10-simple-hacks-speed-data-analysis-python.html
 
 https://towardsdatascience.com/getting-started-with-google-colab-f2fff97f594c
 
