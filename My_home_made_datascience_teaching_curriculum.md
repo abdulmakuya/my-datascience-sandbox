@@ -1,4 +1,4 @@
-- Python programming
+- Python programming (recurssion,strings)
 - Basic SQL
 - Intro to AI,ML,DL (101,Philosophy,History)
 - ML,AI Technical Helicopter view
