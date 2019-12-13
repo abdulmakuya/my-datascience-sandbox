@@ -3,8 +3,9 @@ entry guide for data science and ML with (R and R studio) and Python
 
 # Resources
 ### Sprintsheets
-https://www.trainindata.com/post/best-resources-to-learn-machine-learning
-https://machinelearningmastery.com/a-tour-of-machine-learning-algorithms/
+https://www.trainindata.com/post/best-resources-to-learn-machine-learning    
+https://machinelearningmastery.com/a-tour-of-machine-learning-algorithms/      
+https://medium.com/@saugata.paul1010/ensemble-learning-bagging-boosting-stacking-and-cascading-classifiers-in-machine-learning-9c66cb271674   
 
 #### Pandas 
 https://towardsdatascience.com/be-a-more-efficient-data-scientist-today-master-pandas-with-this-guide-ea362d27386
