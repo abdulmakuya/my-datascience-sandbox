@@ -47,4 +47,5 @@ https://blog.getdbt.com/tag/building-data-teams/
 https://towardsdatascience.com/deploying-a-custom-ml-prediction-service-on-google-cloud-ae3be7e6d38f
 https://www.analyticsvidhya.com/blog/2017/09/machine-learning-models-as-apis-using-flask/
 https://datasciencecastnet.home.blog/2019/09/12/packaging-a-classification-model-as-a-web-app/    
-https://towardsdatascience.com/deploying-a-custom-ml-prediction-service-on-google-cloud-ae3be7e6d38f
+https://towardsdatascience.com/a-simple-example-of-pipeline-in-machine-learning-with-scikit-learn-e726ffbb6976
+
