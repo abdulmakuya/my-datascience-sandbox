@@ -1,4 +1,5 @@
-- Python programming (recurssion,strings)
+1. Python programming (recurssion,strings)
+  * Variables
 - Basic SQL
 - Intro to AI,ML,DL (101,Philosophy,History)
 - ML,AI Technical Helicopter view
