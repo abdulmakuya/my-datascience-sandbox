@@ -36,5 +36,12 @@ all_agents = ["","",""]
 
 samp_agents = sample(all_agents,100)
 
+
+#Change column type
+df.v2.astype(str)
+df.v2.astype(int)
+
+df.dtypes
+
 ```
 
