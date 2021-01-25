@@ -19,4 +19,11 @@
 - requirements.txt
 	attach all dependencies
 	
-- pip install -r requirements.txt
+- pip freeze > requirments.txt - Creates a text document with the dependencies in the project
+	
+- pip install -r requirements.txt - duplicates the dependencies needed for an env
+
+### Creating Virtual Env by using Pip
+
+- pipenv shell
+- pipenv graph
