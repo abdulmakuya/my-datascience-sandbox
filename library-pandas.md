@@ -43,5 +43,8 @@ df.v2.astype(int)
 
 df.dtypes
 
+#masking on a dataset with null values, and case insensitive
+all_dataset[all_dataset.v4.str.contains("TREE", case=False, na=False)]
+
 ```
 
