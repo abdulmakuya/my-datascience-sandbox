@@ -124,5 +124,6 @@ importing as dataframe for mixed data pandas
 
 - Download the WSL (Windows Subsystem for Linux)
 - install dependencies i.e python, pip3, virtualenv, jupyter
+- Follow this for extra details on https://blog.usejournal.com/installing-turicreate-on-windows-10-534e147a4792
 
 This becomes handy as some libraries arent available in Windows. Example: the Turicreate Library
