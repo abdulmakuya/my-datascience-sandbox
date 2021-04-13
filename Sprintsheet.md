@@ -118,3 +118,11 @@ for col in columns:
 default python file opening functions
 importing as array for numerical data numpy
 importing as dataframe for mixed data pandas
+
+
+### Running Linux environment on Windows.
+
+- Download the WSL (Windows Subsystem for Linux)
+- install dependencies i.e python, pip3, virtualenv, jupyter
+
+This becomes handy as some libraries arent available in Windows. Example: the Turicreate Library
