@@ -127,3 +127,11 @@ importing as dataframe for mixed data pandas
 - Follow this for extra details on https://blog.usejournal.com/installing-turicreate-on-windows-10-534e147a4792
 
 This becomes handy as some libraries arent available in Windows. Example: the Turicreate Library
+
+### Execution time of a cell
+```python
+
+s=time.time()
+print("Execution time:", round((time.time()-s)/60,2), "minutes")
+
+```
